@@ -10,7 +10,7 @@ import LibraryA
 
 public final class LibraryBDescriptions {
     
-    static var shared: LibraryBDescriptions = {
+    static public var shared: LibraryBDescriptions = {
         let instance = LibraryBDescriptions()
         
         return instance
@@ -18,7 +18,7 @@ public final class LibraryBDescriptions {
     
     private init() {}
     
-    func printLibraryBName() {
+    public func printLibraryBName() {
         print("---!!!--- This is LIBRARY B")
         
         LibraryDescriptions.shared.printLibraryName()
