@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "librarya",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Ausianovich/LibraryA",
+      "state" : {
+        "revision" : "c5f704361c93f4e53de0ec8a4d3a3e5c7beaab94",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
